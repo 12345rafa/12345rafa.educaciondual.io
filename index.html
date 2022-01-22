@@ -1,40 +1,314 @@
 <!doctype html>
-<html>
+<html lang="en">
+
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Educacion DUAL UPA</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
 
-		<!-- Theme used for syntax highlighted code -->
+		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
 	</head>
+
 	<body>
+
 		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<a href="https://www.upatlacomulco.edu.mx">
+						<img src="images/UPA-DUAL.jpg" alt="upatlacomulco logo" style="height: 350px; margin: 0 auto; background: transparent;" class="demo-logo">
+					</a>
+					<h3>EDUCACIÓN DUAL</h3>
+					<p>
+						<small><a href="http://hakim.se"></a><a href="https://github.com/hakimel/reveal.js/graphs/contributors">"Aprendiendo Haciendo"</a></small>
+					</p>
+				</section>
+
+				<section id="transitions">
+					<h2>ESTILOS DE TRANSICIÓN</h2>
+					<p>Puede seleccionar entre diferentes transiciones, como: <br>
+						<a href="?transition=none#/transitions">Ninguno</a> -
+						<a href="?transition=fade#/transitions">Fundido</a> -
+						<a href="?transition=slide#/transitions">Deslizar</a> -
+						<a href="?transition=convex#/transitions">Convexo</a> -
+						<a href="?transition=concave#/transitions">Cóncavo</a> -
+						<a href="?transition=zoom#/transitions">Zoom</a>
+					</p>
+				</section>
+
+				<section id="themes">
+					<h2>TEMAS</h2>
+					<p>
+						revelar.js viene con algunos temas integrados:<br>
+						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','dist/theme/black.css'); return false;">Negro (predeterminado)</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','dist/theme/white.css'); return false;">Blanco</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','dist/theme/league.css'); return false;">Liga</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','dist/theme/sky.css'); return false;">Cielo</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','dist/theme/beige.css'); return false;">Beige</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','dist/theme/simple.css'); return false;">Simple</a> <br>
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','dist/theme/serif.css'); return false;">Serif</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','dist/theme/blood.css'); return false;">Sangre</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','dist/theme/night.css'); return false;">Noche</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','dist/theme/moon.css'); return false;">Luna</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','dist/theme/solarized.css'); return false;">Solarizado</a>
+					</p>
+				</section>
+
+				<section>
+					<h2>¿QUÉ ES EDUCACIÓN DUAL?</h2>
+					<p>
+						Una estrategia educativa, donde se conjugan las competencias adquiridas en los espacios educativos, 
+    con las adquiridas en la práctica profesional, fortaleciendo y desarrollando aptitudes del estudiante dual que le 
+    incrementarán las posibilidades de inserción laboral.
+					</p>
+				</section>
+
+				<section>
+					<h2>Objetivo</h2>
+					<p>
+						Aprovechar los recursos de la unidad económica, de la institución educativa y el aporte del estudiante, 
+            a efecto de favorecer un impacto social positivo con respecto a la cualificación de los egresados y el 
+            incremento en la tasa de empleo.
+					</p>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						
+						<p>El proceso de aprendizaje en la Unidad Económica se alterna y complementa con la formación en la 
+                          Institución Educativa.</p>
+						<h2>Requisitos para aplicar</h2>
+						<br>
+						<a href="#/5/1" class="navigate-down">
+							<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Down arrow">
+						</a>
+					</section>
+
+					<section>
+					<h2>Requisitos para Estudiantes</h2>
+					<ul>
+						<li>Estar inscrito en el periodo y PE establecidos</li>
+						<li>Tener mínimo 16 años de edad</li>
+						<li>Ser propuesto por la IE </li>
+						<li>No tener empleo formal</li>
+						<li>Contar con autorización de los padres (menor de edad)</li>
+						<li>Estar incorporado a algún servicio de seguridad social</li>
+						<li>Ser aceptado por la UE</li>
+					</ul>
+				</section>
+
+						<section>
+					<h2>Requisitos de la Unidad Economica</h2>
+					<ol>
+						<li>Estar legalmente constituida.</li>
+						<li>Contar con áreas y personal especializado afines al PE.</li>
+						<li>Permitir visitas para supervisar la formación de estudiantes.</li>
+					</ol>
+						<br>
+						<a href="#/5/1">
+							<img class="r-frame" style="background: rgba(255,255,255,0.1); transform: rotate(180deg);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Up arrow">
+						</a>
+					</section>
+				</section>
+
+				<section data-visibility="hidden">
+					<h2>Hidden Slides</h2>
+					<p>
+						This slide is visible in the source, but hidden when the presentation is viewed. You can show all hidden slides by setting the `showHiddenSlides` config option to `true`.
+					</p>
+				</section>
+
+<section>
+					<h2>Plan de Formación</h2>
+					<ul>
+						<li>Documento que establece las actividades formativas.</li>
+						<li>Se elabora de manera conjunta entre la IE y la UE.</li>
+						<li>Planes de Rotación / Proyectos(mínimo un año y máximo de tres).</li>
+						<li>Asistencia del estudiante dual a la UE: días, semanas o meses; máx. ocho h/d, 40 h/s.</li>
+					</ul>
+				</section>
+
+			
+
+				<section data-auto-animate>
+					<h2 data-id="code-title">OFERTA EDUCATIVA DE LA INSTITUCIÓN</h2>
+					<pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers="|4,8-11|17|22-24"><script type="text/template">
+						...........>_<............
+			 
+             INGENIERÍA EN TECNOLOGÍAS DE MANUFACTURA
+             INGENIERIA EN SISTEMAS COMPUTACIONALES
+             LICENCIATURA EN ADMINISTRACIÓN Y GESTIÓN EMPRESARIAL
+             INGENIERÍA ROBÓTICA
+             LICENCIATURA EN TERAPÍA FÍSICA
+
+             ...........>_<............
+					</script></code></pre>
+				</section>
+
+                 <section>
+					<h2>Beneficios</h2>
+					<ul>
+						<li>Adquiere experiencia profesional antes de egresar.</li>
+						<li>Entra en contacto con el mundo real laboral y profesional.</li>
+						<li>Se convierte en un profesional altamente calificado.</li>
+						<p>
+						(NOTE: Institución Educativa)
+					</p>
+					</ul>
+				</section>
+				
+				<section data-auto-animate>
+					<h2 data-id="code-title">PE CON MAYOR PARTICIPACIÓN EN EDUCACIÓN DUAL</h2>
+					<pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers="|4,8-11|17|22-24"><script type="text/template">
+						...........>_<............
+			 
+             Ing. Industrial
+             Lic. en Administración / Ing. en Gestión Empresarial
+             Ing. en Sistemas Computacionales
+             Lic. en Gastronomía
+             Ing. en Tecnologías de la Información y Comunicación
+             Contador Público
+             Lic. en Quiropráctica
+             TSU / Ing. Mecatrónica
+
+             ...........>_<............
+					</script></code></pre>
+				</section>
+
+				
+
+
+				<section>
+					<section data-background="#dddddd">
+						<h2>VIDEOS</h2>
+						<p>
+							Casos reales
+						</p>
+						<a href="#/10/1" class="navigate-down">
+							<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Down arrow">
+						</a>
+					</section>
+						
+					<section data-background-video="videos/video1.mp4" data-background-color="#000000">
+						<div style="background-color: rgba(0, 0, 0, 0.3); color: #fff; padding: 10px;">
+							<h2>Video</h2>
+							<section data-background-video="video1.mp4">
+							
+						</div>
+					</section>
+					<section data-background="http://i.giphy.com/90F8aUepslB84.gif">
+						<h2>... WOOW.!</h2>
+					</section>
+				</section>
+
+
+				<section>
+					<h2>Imagenes</h2>
+					<p>Presentación....</p>
+					
+    <div class="container">
+
+        <!-- BUTTONS (input/labels) -->
+        <input type="radio" name="slider" id="slide-1-trigger" class="trigger" checked>
+       
+        <input type="radio" name="slider" id="slide-2-trigger" class="trigger">
+      
+        <input type="radio" name="slider" id="slide-3-trigger" class="trigger">
+       
+        <input type="radio" name="slider" id="slide-4-trigger" class="trigger">
+       
+
+        <!-- SLIDES -->
+        <div class="slide-wrapper">
+            <div id="slide-role">
+                <div class="slide slide-1"></div>
+                <div class="slide slide-2"></div>
+                <div class="slide slide-3"></div>
+                <div class="slide slide-4"></div>
+            </div>
+        </div>
+
+    </div>
+				</section>
+
+                   <section>
+					<section id="fragments">
+						<h2>Cree en ti...</h2>
+						<p>El exito...</p>
+						<p class="fragment">...es la suma de pequeños...</p>
+						<p><span class="fragment">... esfuerzos</span> <span class="fragment">repetidos</span> <span class="fragment">dia tras dia.</span></p>
+
+						<aside class="notes">
+							This slide has fragments which are also stepped through in the notes window.
+						</aside>
+					</section>
+					<section>
+						<h2>Sigue tus Sueños</h2>
+						<p>Usa tu tiempo en lo que deseas:</p>
+						<p class="fragment grow">disfruta</p>
+						<p class="fragment shrink">compite</p>
+						<p class="fragment fade-out">esfuerzate</p>
+						<p>
+							<span style="display: inline-block;" class="fragment fade-right">Y cuando, </span>
+							<span style="display: inline-block;" class="fragment fade-up">menos, </span>
+							<span style="display: inline-block;" class="fragment fade-down">te lo, </span>
+							<span style="display: inline-block;" class="fragment fade-left">esperes</span>
+						</p>
+						<p class="fragment fade-in-then-out">estaras en la cima</p>
+						
+						<p>Rompe <span class="fragment highlight-red">tus </span> <span class="fragment highlight-blue">limites</span> <span class="fragment highlight-green">>_<</span></p>
+					</section>
+				</section>
+
+				<section style="text-align: left;">
+					<h1>FIN..:)</h1>
+					<p>
+						- <a href="#">Participa</a> <br>
+						
+					</p>
+				</section>
+
 			</div>
+
 		</div>
 
 		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
 		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
 		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
 			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
 				hash: true,
 
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
 			});
+
 		</script>
+
 	</body>
 </html>
